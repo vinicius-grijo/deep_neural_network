@@ -1,5 +1,4 @@
 # deep_neural_network
-Scripts About Deep Neural Networks
 
 Neural Networks as Approximators and the Initialization Dilemma
 
