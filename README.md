@@ -8,8 +8,8 @@ Taking the values of cos(2* \pi * x ) and random variations obtained from a norm
 
 The objective of this Network is to approximate the cosine function, trying to ignore the noise added to the values.
 
-A key point of this project is the following: if the optimization process is started with its "default" parameters, the result is not satisfactory. On the other hand, if the process starts with values such that the variance of the network nodes is constant throughout its layers, then the process presents pleasant results.
+A key point of this project is the following: if the optimization process is started with its "default" parameters, the result is not satisfactory. The network fitted in this procedure is called "dumb". On the other hand, if the process starts with values such that the variance of the network nodes is constant throughout its layers, then the process presents pleasant results. This network that presents better results is called "smart".
 
-The adjusted network is formed by a deep layer with $12$ neurons and uses the Hyperbolic Tangent as Activation Function, while the optimizer used was "adam", an extension of the classic Stochastic Gradient Descent.
+The adjusted networks are both formed by a deep layer with $12$ neurons and uses the Hyperbolic Tangent as Activation Function, while the optimizer used was "adam", an extension of the classic Stochastic Gradient Descent.
 
 The results can be seen in the attached figure.
