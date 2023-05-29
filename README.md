@@ -4,7 +4,7 @@ Neural Networks as Approximators and the Initialization Dilemma
 
 Among the various purposes of a Deep Neural Network, there is also that of approximating a given function.
 
-Taking the values of cos(2* \pi * x ) and random variations obtained from a normal distribution of mean $0$ and variance $0.5^{2}$ as a data set, it is possible to train a Deep Neural Network.
+Taking the values of $cos(2* \pi * x )$ and random variations obtained from a normal distribution of mean $0$ and variance $0.5^{2}$ as a data set, it is possible to train a Deep Neural Network.
 
 The objective of this Network is to approximate the cosine function, trying to ignore the noise added to the values.
 
